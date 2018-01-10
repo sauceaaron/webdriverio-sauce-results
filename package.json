@@ -1,0 +1,18 @@
+{
+  "name": "webdriverio-sauce-results",
+  "version": "1.0.0",
+  "description": "Show how to get capabilities and session ID to see sauce labs results",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "selenium": "selenium-standalone install && selenium-standalone start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "selenium-standalone": "^6.12.0",
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-sauce-service": "^0.4.6",
+    "webdriverio": "^4.10.0"
+  }
+}
