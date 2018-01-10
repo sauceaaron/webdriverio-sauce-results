@@ -4,8 +4,6 @@ var user = process.env.SAUCE_USERNAME;
 var key = process.env.SAUCE_ACCESS_KEY;
 
 var sauce_url = `${user}:${key}@ondemand.saucelabs.com`;
-console.log(sauce_url);
-
 var test_results_url = "https://saucelabs.com/beta/tests/sessionId";
 
 var options = { 
